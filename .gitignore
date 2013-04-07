@@ -1,0 +1,14 @@
+/GUI.class
+/GUIController.class
+/IOHandler.class
+/Item.class
+/Menu.class
+/Order.class
+/posTester.class
+
+/doc/
+.settings/
+.project
+max-soha.txt
+test.txt
+orderLog.log
