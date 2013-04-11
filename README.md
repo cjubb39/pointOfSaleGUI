@@ -23,6 +23,12 @@ I chose to arrange buttons / menu as I did (by not creating lasting button objec
 	buttons by short name) in order to make the system more easily adaptable to a different number
 	of menu options with indeterminate number of buttons.
 
+Additionally, I created the system with abbreviated names on the buttons (if beyond a certain 
+    length).  In doing so, I am making the reasonable assumption that the restaurant can use names
+    that differ in the first 20 characters.  I additionally chose the default window size to be one
+    that comfortably fits (while not maximized) on my 1920 x 1080 pixel display.  This easily fits 
+    below a standard iPad resolution, a comparison point suggested on piazza.
+
 Menu was constructed using a variation of the Singleton pattern.  Once the menu object is 
 	successfully created, a new one cannot be created.  I added the extra boolean because the menu
 	creation can fail (due to an improperly formated or non-existent file).  Thus, I only set that
